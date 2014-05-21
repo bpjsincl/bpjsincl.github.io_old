@@ -10,8 +10,15 @@
   font-weight: bold;
 }
 
+@font-face{
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-italic.ttf')  format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+
 html { 
-  background: url(../img/bg-1600-2.png) no-repeat center center fixed; 
+  background: url(../img/bg-1600-4.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -30,17 +37,17 @@ body {
   font-size: 24pt;
   position: absolute;
   left: 130px;
-  top: 130px;
+  top: 250px;
   font-weight: 600;
 }
 
 .words {
-  width: 370px;
+  width: 470px;
   font-size: 11pt;
   position: relative;
   display: block;
   left: 130px;
-  margin: 199px 0 0 0;
+  margin: 299px 0 0 0;
   line-height: 20pt;
 }
 
