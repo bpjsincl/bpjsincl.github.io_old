@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Regular.ttf')  format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('fonts/OpenSans-Semibold.ttf')  format('truetype');
+  font-weight: bold;
+}
+
+html { 
+  background: url(../img/bg-1600-2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #707070;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica Neue, Helvetica, sans-serif;
+  color: #f5f5f6;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.name {
+  width: 350px;
+  font-size: 24pt;
+  position: absolute;
+  left: 130px;
+  top: 130px;
+  font-weight: 600;
+}
+
+.words {
+  width: 370px;
+  font-size: 11pt;
+  position: relative;
+  display: block;
+  left: 130px;
+  margin: 199px 0 0 0;
+  line-height: 20pt;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: color 0.5s ease;
+  color: rgba(255, 255, 255, 1);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#left {
+  float: left;
+  width: 120px;
+}
+
+#right {
+  float: left;
+}
