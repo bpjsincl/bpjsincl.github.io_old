@@ -18,7 +18,7 @@
 }
 
 html { 
-  background: url(../img/bg-1600-4.png) no-repeat center center fixed; 
+  background: url(../img/bg-1600-6.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -37,17 +37,37 @@ body {
   font-size: 24pt;
   position: absolute;
   left: 130px;
-  top: 250px;
+  top: 100px;
   font-weight: 600;
 }
 
-.words {
-  width: 470px;
+.quote {
+  width: 400px;
   font-size: 11pt;
   position: relative;
   display: block;
   left: 130px;
-  margin: 299px 0 0 0;
+  margin: 159px 0 0 0;
+  line-height: 20pt;
+}
+
+.words {
+  width: 400px;
+  font-size: 11pt;
+  position: relative;
+  display: block;
+  left: 130px;
+  /*margin: 80px 0 0 0;*/
+  line-height: 20pt;
+}
+
+.forward {
+  width: 400px;
+  font-size: 11pt;
+  position: relative;
+  display: block;
+  left: 130px;
+  margin: 80px 0 0 0;
   line-height: 20pt;
 }
 
@@ -72,4 +92,15 @@ a:hover {
 
 #right {
   float: left;
+}
+
+table{
+  width:1000px;
+  text-align: left;
+  position: relative;
+  margin: 210px 0 0 0;
+}
+
+td{
+  vertical-align:middle;
 }
