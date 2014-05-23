@@ -42,13 +42,14 @@ body {
 }
 
 .quote {
-  width: 400px;
+  width: 450px;
   font-size: 11pt;
   position: relative;
   display: block;
   left: 130px;
   margin: 159px 0 0 0;
   line-height: 20pt;
+  font-style: italic;
 }
 
 .words {
