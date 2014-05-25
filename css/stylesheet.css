@@ -44,7 +44,7 @@ body {
 .contain {
   display: inline-block;
   position: relative;
-  margin-top: 120px;
+  margin-top: -56px;
   width: 800px;
   left: 110px;
 }
@@ -65,9 +65,9 @@ body {
   line-height: 20pt;
   text-align: left;
   position: absolute;
-  left: 300px;
-  bottom: 100px;
-  width:400px;
+  left: 0px;
+  bottom: -123px;
+  width: 519px;
   float: left;
 }
 
